@@ -1,7 +1,7 @@
 package test;
 
 public class Auto {
-    String modelo;
+	String modelo;
     int precio;
     Asiento[] asientos;
     String marca;
@@ -18,6 +18,7 @@ public class Auto {
         this.registro = registro;
         cantidadCreados++;
     }
+
 
     public int cantidadAsientos() {
         int cantidadAsientos = 0;
